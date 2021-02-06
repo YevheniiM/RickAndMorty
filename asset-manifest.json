@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/RickAndMorty/static/css/main.82a60e06.chunk.css",
+    "main.js": "/RickAndMorty/static/js/main.d69c0c8e.chunk.js",
+    "main.js.map": "/RickAndMorty/static/js/main.d69c0c8e.chunk.js.map",
+    "runtime-main.js": "/RickAndMorty/static/js/runtime-main.8bfbde9f.js",
+    "runtime-main.js.map": "/RickAndMorty/static/js/runtime-main.8bfbde9f.js.map",
+    "static/js/2.c5775001.chunk.js": "/RickAndMorty/static/js/2.c5775001.chunk.js",
+    "static/js/2.c5775001.chunk.js.map": "/RickAndMorty/static/js/2.c5775001.chunk.js.map",
+    "static/js/3.20be32b5.chunk.js": "/RickAndMorty/static/js/3.20be32b5.chunk.js",
+    "static/js/3.20be32b5.chunk.js.map": "/RickAndMorty/static/js/3.20be32b5.chunk.js.map",
+    "index.html": "/RickAndMorty/index.html",
+    "static/css/main.82a60e06.chunk.css.map": "/RickAndMorty/static/css/main.82a60e06.chunk.css.map",
+    "static/js/2.c5775001.chunk.js.LICENSE.txt": "/RickAndMorty/static/js/2.c5775001.chunk.js.LICENSE.txt",
+    "static/media/Select.scss": "/RickAndMorty/static/media/arrow.65fd5930.svg",
+    "static/media/logo.a3fab0ca.svg": "/RickAndMorty/static/media/logo.a3fab0ca.svg",
+    "static/media/search.ebfd5586.svg": "/RickAndMorty/static/media/search.ebfd5586.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8bfbde9f.js",
+    "static/js/2.c5775001.chunk.js",
+    "static/css/main.82a60e06.chunk.css",
+    "static/js/main.d69c0c8e.chunk.js"
+  ]
+}
