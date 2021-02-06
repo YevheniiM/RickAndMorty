@@ -1,0 +1,19 @@
+.GeneralHeader {
+  height: 120px;
+  background-color: var(--background-light);
+  display: flex;
+
+  &__headerSearch {
+    margin: auto;
+    height: 56px;
+    vertical-align: center;
+    font-size: 1em;
+  }
+
+  &__logo {
+    width: 180px;
+    height: 56px;
+    margin: auto;
+    vertical-align: center;
+  }
+}

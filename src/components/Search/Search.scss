@@ -1,0 +1,43 @@
+.Search {
+  position: relative;
+  width: 866px;
+  height: 88px;
+  margin: 100px auto 20px auto;
+
+  &__logo {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  &__input {
+    width: calc(100% - 300px);
+    height: 100%;
+    display: block;
+    font-size: 1.5em;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 -2px 24px 0 var(--border-light);
+    outline-style: none;
+    padding: 0 240px 0 70px;
+  }
+
+  &__button {
+    width: 220px;
+    height: 71%;
+    border: none;
+    background: var(--cta);
+    border-radius: 12px;
+    position: absolute;
+    color: var(--text-light);
+    font-weight: bold;
+    font-size: 1em;
+    right: 0;
+    top: 50%;
+    outline-style: none;
+    transform: translateY(-50%);
+  }
+}

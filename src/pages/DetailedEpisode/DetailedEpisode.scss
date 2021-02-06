@@ -1,0 +1,33 @@
+.DetailedEpisode {
+  display: flex;
+  justify-content: center;
+  margin-top: 130px;
+  background: var(--text-dark);
+  color: var(--text-light);
+  height: 100%;
+
+  &__image {
+    display: flex;
+    margin: 60px 48px 0 120px;
+    vertical-align: center;
+    background-color: var(--background-darker);
+    height: 282px;
+    width: 282px;
+    text-align: center;
+    border-radius: 8px;
+  }
+
+  &__imageText {
+    margin-left: 30px;
+    font-size: 50px;
+    align-self: center;
+  }
+
+  &__description {
+    display: inline-block;
+    margin-right: 48px;
+    margin-top: 42px;
+    line-height: 18px;
+    height: 470px;
+  }
+}

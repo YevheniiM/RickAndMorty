@@ -1,0 +1,65 @@
+.DetailedUser {
+  background: var(--text-dark);
+  color: var(--text-light);
+  padding-top: 40px;
+  padding-bottom: 80px;
+  font-weight: bold;
+  font-size: 13px;
+
+  &__wrapper {
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    background: var(--background-darker);
+    height: fit-content;
+    overflow: hidden;
+  }
+
+  &__imageWrapper {
+    width: 282px;
+    height: 282px;
+    margin: 30px;
+  }
+
+  &__image {
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+  }
+
+  &__infoWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+
+  &__head {
+    color: white;
+    font-size: 56px;
+    margin-top: 30px;
+  }
+
+  &__tagsWrapper {
+    display: flex;
+    margin: 16px 0 33px 0;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+
+  &__episodesWrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 100px;
+    max-height: 100%;
+
+    p {
+      margin-top: 0;
+      margin-bottom: 6px;
+    }
+  }
+}

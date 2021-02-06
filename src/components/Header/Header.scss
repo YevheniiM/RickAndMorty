@@ -1,0 +1,13 @@
+.Header {
+  height: 120px;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__headerSearch {
+    height: 56px;
+    font-size: 24px;
+    vertical-align: center;
+  }
+}
