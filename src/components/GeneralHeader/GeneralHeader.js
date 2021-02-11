@@ -3,6 +3,8 @@ import Search from "../Search";
 import { ReactComponent as Logo } from "../../assets/icons/logo.svg";
 import { Link } from "react-router-dom";
 
+// TODO: import order
+
 const GeneralHeader = () => {
   return (
     <div className="GeneralHeader">

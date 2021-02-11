@@ -11,4 +11,5 @@ export const Gender = Object.freeze({
   Genderless: <span>&#128483;</span>,
 });
 
+// TODO: move to .env, add .env.example
 export const SERVER_URL = "https://rickandmortyapi.com/api";

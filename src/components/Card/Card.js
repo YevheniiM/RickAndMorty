@@ -4,6 +4,8 @@ import Tag from "../Tag/Tag";
 import { Gender, Status } from "../../common/constants";
 import { Link } from "react-router-dom";
 
+// TODO: remove unused props
+// TODO: fix import order
 const Card = ({
   id,
   name,
@@ -47,5 +49,7 @@ const Card = ({
     </div>
   );
 };
+
+// TODO: prop types
 
 export default Card;
