@@ -37,7 +37,7 @@ const DetailedUser = () => {
   const { name, status, gender, species, origin, created, image, episode, location } = character || {};
 
   const episodes = episode?.map(renderEpisodes);
-  console.log(episodes);
+  console.log(episodes); // TODO: remove if unneeded
 
   return character ? (
     <div className="DetailedUser">

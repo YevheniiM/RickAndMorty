@@ -6,4 +6,6 @@ const CardList = ({ characters }) => {
   return <div className="CardList">{characters?.map(renderCharacter)}</div>;
 };
 
+// TODO: prop types
+
 export default CardList;

@@ -35,4 +35,6 @@ const Select = ({ label, value, handleSelect, options }) => {
   );
 };
 
+// TODO: prop types
+
 export default Select;

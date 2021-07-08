@@ -1,6 +1,8 @@
 import "./Search.scss";
 import { ReactComponent as Logo } from "../../assets/icons/search.svg";
 
+// TODO: better use destructuring 
+// I.e. props -> { setValue, value }
 const Search = (props) => {
   const handleChange = (event) => {
     props.setValue(event.target.value);
